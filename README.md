@@ -1,16 +1,20 @@
 # Attention-Driven Loss for Anomaly Detection in Video Surveillance
 This repo is the official open source of [Attention-Driven Loss for Anomaly Detection in Video Surveillance)
+* Joey Tianyi Zhou, Le Zhang, Zhiwen Fang, Jiawei Du, Xi Peng, Yang Xiao, "Attention-Driven Loss for Anomaly Detection in Video Surveillance", IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT), 2020.
 
 It is implemented in tensorflow. Please follow the instructions to run the code.  
+The backbone network in this work is based on “Future Frame Prediction for Anomaly Detection -- A New Baseline”(CVPR-2018). 
 
-Our work is based on the work of 
-```code
-@INPROCEEDINGS{liu2018ano_pred, 
-	author={W. Liu and W. Luo, D. Lian and S. Gao}, 
-	booktitle={2018 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-	title={Future Frame Prediction for Anomaly Detection -- A New Baseline}, 
-	year={2018}
-}
+If you feel this project helpful to your research, please cite the following paper
+```bibtex
+@ARTICLE{8778733, 
+author={Zhou, Joey Tianyi and Zhang, Le and Fang, Zhiwen and Du, Jiawei and Peng, Xi and Yang Xiao}, 
+journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+title={Attention-Driven Loss for Anomaly Detection in Video Surveillance}, 
+year={2020}, 
+volume={}, 
+number={}, 
+month={},}
 ```
 ## 1. Installation 
 * Install 3rd-package dependencies of python (listed in requirements.txt)
