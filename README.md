@@ -38,13 +38,13 @@ pip install tensorflow-gpu==1.4.1
 
 ## 2. Preparing datasets
 
-Please download the following datasets [ped1.tar.gz, ped2.tar.gz, avenue.tar.gz and shanghaitech.tar.gz](https://onedrive.live.com/?authkey=%21AMqh2fTSemfrokE&id=3705E349C336415F%215109&cid=3705E349C336415F)
+Please download the following datasets [ped1.tar.gz, ped2.tar.gz,](http://www.svcl.ucsd.edu/projects/anomaly/UCSD_Anomaly_Dataset.tar.gz) [avenue.tar.gz](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/Avenue_Dataset.zip) and [shanghaitech.tar.gz](https://svip-lab.github.io/dataset/campus_dataset.html)
 and move them in to **Data** folder.
 
 
 ## 3. Testing on saved models
 * Download the trained models (There are the pretrained FlowNet and the trained models of the papers, such as ped1, ped2 and avenue).
-Please manually download pretrained models from [pretrains.tar.gz, avenue, ped1, ped2, flownet](https://onedrive.live.com/?authkey=%21AMqh2fTSemfrokE&id=3705E349C336415F%215109&cid=3705E349C336415F)
+Please manually download pretrained models from [pretrains.tar.gz, avenue, ped1, ped2, flownet](https://drive.google.com/drive/folders/1tG_3ioeZk2-nhA2maC4VFgQie4KBTbQ3?usp=sharing)
 and tar -xvf pretrains.tar.gz, and move pretrains into **Codes/checkpoints** folder. **[ShanghaiTech pre-trained models](https://onedrive.live.com/?authkey=%21AMlRwbaoQ0sAgqU&id=303FB25922AAD438%217383&cid=303FB25922AAD438)**
 
 * Running the sript (as ped2 and avenue datasets for examples) and cd into **Codes** folder at first.
